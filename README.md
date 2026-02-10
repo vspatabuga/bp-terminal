@@ -1,8 +1,18 @@
 # 🏴‍☠️ Black-Pearl Control Center (BP-TUI)
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Bubble Tea](https://img.shields.io/badge/Bubble%20Tea-Charm-00ADD8?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+<p align="center">
+  <img src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png" width="100" alt="Go" />
+  <img src="https://raw.githubusercontent.com/charmbracelet/bubbletea/master/.github/bubbletea-logo.png" width="100" alt="Bubble Tea" />
+</p>
+
+<p align="center">
+  <b>Built with the Charm Stack</b><br>
+  <i>High-performance Go-native PTY/VTE Architecture</i>
+</p>
+
+![Go Version](https://img.shields.io/github/go-mod/go-version/vspatabuga/bp-terminal?style=for-the-badge&logo=go)
+![Repo Size](https://img.shields.io/github/repo-size/vspatabuga/bp-terminal?style=for-the-badge&color=blueviolet)
+![Last Commit](https://img.shields.io/github/last-commit/vspatabuga/bp-terminal?style=for-the-badge)
 
 A high-performance, modular Text User Interface (TUI) built with Go and the Bubble Tea framework. Designed for autonomous system orchestration and secure command execution within the Patabuga Enterprises System (PES) ecosystem.
 
@@ -51,3 +61,9 @@ The BP-Control Center maintains its "Security-First" mindset:
 ```bash
 git clone [https://github.com/vspatabuga/bp-terminal.git](https://github.com/vspatabuga/bp-terminal.git)
 cd bp-terminal
+
+## ⚖️ License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2025 Virgiawan Sagarmata Patabuga
