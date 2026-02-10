@@ -1,15 +1,30 @@
-# Python
+# Project Specific
+archive_audit/
+bp-control
+layout-model-1
+
+# Go
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+# Test binaries
+*.test
+# Output of 'go build'
+*.out
+
+# Python (Legacy Cleanup)
 venv/
 __pycache__/
 *.py[cod]
 
-# C++ Binaries & Objects
-bin/
+# C++ Objects
 *.o
-*.out
-bp-control
-layout-model-1
 
 # IDE & OS
 .vscode/
+.idea/
 .DS_Store
+*.swp

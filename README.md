@@ -1,72 +1,53 @@
-
-
 # 🏴‍☠️ Black-Pearl Control Center (BP-TUI)
 
-A sophisticated, modular Text User Interface (TUI) designed for autonomous system orchestration, infrastructure monitoring, and secure command execution. Built with a 3-layer architecture to manage the **Patabuga Enterprises System (PES)** ecosystem.
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Bubble Tea](https://img.shields.io/badge/Bubble%20Tea-Charm-00ADD8?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
-## 🏗 Architectural Framework
-
-This project implements a strict **Separation of Concerns (SoC)** through a tri-layered approach:
-
-1. **Layer 1: Presentation (TUI Shell)** Built using **Python Textual**, this layer serves as the command center's interface. It features a component-based design where UI elements (Network, Environment, Action) are isolated modules.
-2. **Layer 2: Logic Hub (Alias Orchestration)** A centralized logic repository (`.bp-alias`) that translates human-readable commands into complex system operations. It acts as the "brain" between the interface and the OS.
-3. **Layer 3: Execution (Data Harvesters & Binaries)** Low-level shell scripts and binaries located in `/usr/local/bin`. These "muscles" perform heavy lifting, such as telemetry gathering (JSON) and Azure Cloud management.
+A high-performance, modular Text User Interface (TUI) built with Go and the Bubble Tea framework. Designed for autonomous system orchestration and secure command execution within the Patabuga Enterprises System (PES) ecosystem.
 
 ---
 
-## 🛡 Security & Resilience: Zero Trust Integration
+## 🏗 New Go-Native Architecture
 
-The BP-Control Center is designed with a **"Security-First"** mindset. The monitoring pilar integrates a Zero Trust Network Mesh status check:
+This project has been migrated to a native Go implementation to leverage superior concurrency and direct PTY (Pseudoterminal) integration.
 
-* **Secure Lockdown:** If the Zero Trust handshake is lost, the TUI enters a "Locked" state, preventing command leakage to unauthorized networks.
-* **Invisible Infrastructure:** By utilizing tunneling and IaC (Infrastructure as Code), the control center remains invisible to the public internet.
+### Layer 1: Interface (Bubble Tea)
+* Uses **Lipgloss** for a rigid, geometric UI layout.
+* Features a **50/50 split pilar design** for simultaneous monitoring and execution.
+
+### Layer 2: Virtual Terminal Emulator (vt10x)
+* Integrates a **virtual buffer** to interpret raw ANSI escape sequences.
+* Provides a **stable grid** that prevents terminal output from breaking the UI chassis.
+
+### Layer 3: PTY Execution (creack/pty)
+* **Direct bridge** to the native `/bin/bash` shell.
+* **Real-time command execution** with synchronized window resizing (SIGWINCH).
 
 ---
 
 ## 🛠 Tech Stack
 
-* **Interface:** Python 3.10+, Textual, Rich.
-* **Logic:** Bash (Functional Aliases), JSON.
-* **Monitoring:** Linux Sys-fs, Ping-mesh, Azure CLI.
-* **Ops:** Symlinked Monorepo for seamless system integration.
+* **Language:** Go 1.24+
+* **TUI Framework:** Bubble Tea
+* **Styling:** Lipgloss
+* **Terminal Emulation:** vt10x
+* **PTY Logic:** creack/pty
 
 ---
 
-## 🚀 Installation & Setup
+## 🛡 Security & Resilience: Zero Trust
 
-1. **Clone the Repository:**
+The BP-Control Center maintains its "Security-First" mindset:
+
+* **Alternate Screen Buffer:** Runs in a dedicated buffer to keep your primary terminal history clean and secure.
+* **Zero Trust Handshake:** Integrated monitoring for secure node verification.
+
+---
+
+## 🚀 Installation & Execution
+
+### Clone & Setup:
 ```bash
-git clone https://github.com/your-username/bp-terminal.git
+git clone [https://github.com/vspatabuga/bp-terminal.git](https://github.com/vspatabuga/bp-terminal.git)
 cd bp-terminal
-
-```
-
-
-2. **Initialize System Bridging:**
-The project uses symbolic links to integrate with your local system environment.
-```bash
-# Link the binaries
-sudo ln -s $(pwd)/bin/bp-stats /usr/local/bin/bp-stats
-# Link the logic hub
-ln -s $(pwd)/logic/.bp-alias ~/.bp-alias
-
-```
-
-
-3. **Run the Control Center:**
-```bash
-python3 app.py
-
-```
-
-
-
----
-
-## 📜 Documentation & Chronology
-
-Development is strictly logged in `DOCS.md`, detailing the system's evolution from a single-script harvester to a full-scale modular command center.
-
----
-
-
