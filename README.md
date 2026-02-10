@@ -1,14 +1,14 @@
 # 🏴‍☠️ Black-Pearl Control Center (BP-TUI)
 
-<p align="center">
-  <img src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png" width="100" alt="Go" />
-  <img src="https://raw.githubusercontent.com/charmbracelet/bubbletea/master/.github/bubbletea-logo.png" width="100" alt="Bubble Tea" />
+<p align="left">
+  <a href="https://go.dev/"><img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"></a>
+  <a href="https://github.com/charmbracelet/bubbletea"><img src="https://img.shields.io/badge/TUI-Bubble%20Tea-B7A0E8?style=for-the-badge&logo=charm" alt="Bubble Tea"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License"></a>
 </p>
 
-<p align="center">
-  <b>Built with the Charm Stack</b><br>
-  <i>High-performance Go-native PTY/VTE Architecture</i>
-</p>
+<img src="https://raw.githubusercontent.com/charmbracelet/bubbletea/main/.github/assets/bubbletea-header.png" width="600" alt="Bubble Tea Header">
+
+A high-performance, modular Text User Interface (TUI) built with **Go** and the **Bubble Tea** framework.
 
 ![Go Version](https://img.shields.io/github/go-mod/go-version/vspatabuga/bp-terminal?style=for-the-badge&logo=go)
 ![Repo Size](https://img.shields.io/github/repo-size/vspatabuga/bp-terminal?style=for-the-badge&color=blueviolet)
