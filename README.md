@@ -56,6 +56,7 @@ The BP-Control Center maintains its "Security-First" mindset:
 ```bash
 git clone [https://github.com/vspatabuga/bp-terminal.git](https://github.com/vspatabuga/bp-terminal.git)
 cd bp-terminal
+```
 
 ## ⚖️ License
 
