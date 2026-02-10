@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# C++ Binaries & Objects
+bin/
+*.o
+*.out
+bp-control
+layout-model-1
+
+# IDE & OS
+.vscode/
+.DS_Store
