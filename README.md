@@ -1,4 +1,4 @@
-# 🏴‍☠️ Black-Pearl Control Center (BP-TUI)
+# 🏴‍☠️ Black-Pearl Terminal
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev/)
 [![Bubble Tea](https://img.shields.io/badge/TUI-Bubble%20Tea-B7A0E8?style=flat-square&logo=charm)](https://github.com/charmbracelet/bubbletea)
@@ -9,7 +9,7 @@
 ![Repo Size](https://img.shields.io/github/repo-size/vspatabuga/bp-terminal?style=for-the-badge&color=blueviolet)
 ![Last Commit](https://img.shields.io/github/last-commit/vspatabuga/bp-terminal?style=for-the-badge)
 
-A high-performance, modular Text User Interface (TUI) built with Go and the Bubble Tea framework. Designed for autonomous system orchestration and secure command execution within the Patabuga Enterprises System (PES) ecosystem.
+A high-performance, modular Text User Interface (TUI) built with Go and the Bubble Tea framework. Designed for autonomous system orchestration and secure command execution within the BP (Black-Pearl) ecosystem.
 
 ---
 
