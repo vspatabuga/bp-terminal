@@ -4,7 +4,6 @@
 [![Bubble Tea](https://img.shields.io/badge/TUI-Bubble%20Tea-B7A0E8?style=flat-square&logo=charm)](https://github.com/charmbracelet/bubbletea)
 [![Lipgloss](https://img.shields.io/badge/UI-Lipgloss-FF5F87?style=flat-square)](https://github.com/charmbracelet/lipgloss)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/vspatabuga/bp-terminal)](https://goreportcard.com/report/github.com/vspatabuga/bp-terminal)
 
 ![Go Version](https://img.shields.io/github/go-mod/go-version/vspatabuga/bp-terminal?style=for-the-badge&logo=go)
 ![Repo Size](https://img.shields.io/github/repo-size/vspatabuga/bp-terminal?style=for-the-badge&color=blueviolet)
