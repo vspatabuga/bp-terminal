@@ -1,14 +1,10 @@
 # 🏴‍☠️ Black-Pearl Control Center (BP-TUI)
 
-<p align="left">
-  <a href="https://go.dev/"><img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"></a>
-  <a href="https://github.com/charmbracelet/bubbletea"><img src="https://img.shields.io/badge/TUI-Bubble%20Tea-B7A0E8?style=for-the-badge&logo=charm" alt="Bubble Tea"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License"></a>
-</p>
-
-<img src="https://raw.githubusercontent.com/charmbracelet/bubbletea/main/.github/assets/bubbletea-header.png" width="600" alt="Bubble Tea Header">
-
-A high-performance, modular Text User Interface (TUI) built with **Go** and the **Bubble Tea** framework.
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev/)
+[![Bubble Tea](https://img.shields.io/badge/TUI-Bubble%20Tea-B7A0E8?style=flat-square&logo=charm)](https://github.com/charmbracelet/bubbletea)
+[![Lipgloss](https://img.shields.io/badge/UI-Lipgloss-FF5F87?style=flat-square)](https://github.com/charmbracelet/lipgloss)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/vspatabuga/bp-terminal)](https://goreportcard.com/report/github.com/vspatabuga/bp-terminal)
 
 ![Go Version](https://img.shields.io/github/go-mod/go-version/vspatabuga/bp-terminal?style=for-the-badge&logo=go)
 ![Repo Size](https://img.shields.io/github/repo-size/vspatabuga/bp-terminal?style=for-the-badge&color=blueviolet)
